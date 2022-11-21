@@ -1,5 +1,4 @@
 terraform {
-  #specify minimum
   required_version = ">=0.13.1"
 
   required_providers {
@@ -15,6 +14,7 @@ terraform {
   }
 }
 
+#specify minimum
 /*
 Each module should at least declare the minimum provider version it is known to work with, using the >= version constraint syntax:
 
