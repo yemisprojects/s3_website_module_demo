@@ -40,8 +40,6 @@ No modules.
 | <a name="input_error_document"></a> [error\_document](#input\_error\_document) | Name of error document for the website) | `string` | `error.html` | no |
 | <a name="input_tags"></a> [tags](#input\_tags) | Github owner to use when creating webhook | `map(string)` | `{}` | no |
 | <a name="input_create_random_suffix"></a> [create\_random\_suffix](#input\_github\_token) | Add random suffix to bucket name | `bool` | `false` | no |
-| <a name="input_webhook_secret"></a> [webhook\_secret](#input\_webhook\_secret) | Webhook secret | `string` | `""` | no |
-| <a name="input_webhook_url"></a> [webhook\_url](#input\_webhook\_url) | Webhook URL | `string` | `""` | no |
 
 ## Outputs
 
