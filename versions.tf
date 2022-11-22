@@ -13,11 +13,3 @@ terraform {
     }
   }
 }
-
-#specify minimum
-/*
-Each module should at least declare the minimum provider version it is known to work with, using the >= version constraint syntax:
-
-A module intended to be used as the root of a configuration — that is, as the directory where you'd run terraform apply — should also specify the maximum provider version it is intended to work with, to avoid accidental upgrades to incompatible new versions
-
-*/
