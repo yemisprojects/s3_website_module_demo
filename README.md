@@ -74,3 +74,11 @@ No modules.
 | <a name="output_bucket_website_endpoint"></a> [bucket\_website\_endpoint](#output\_bucket\_website\_endpoint) | The website endpoint of the domain |
 | <a name="output_bucket_website_domain"></a> [bucket\_website\_domain](#output\_bucket\_website\_domain) | Domain of the website endpoint |
 
+## Authors
+
+Module is maintained by Yemi Odunade and XYZ contributors
+
+## License
+
+Apache 2 Licensed. See LICENSE for full details.
+
