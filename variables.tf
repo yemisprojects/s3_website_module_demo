@@ -3,18 +3,6 @@ variable "bucket_name" {
   type        = string
 }
 
-variable "index_document" {
-  description = "Name of index document for the website"
-  type        = string
-  default     = "index.html"
-}
-
-variable "error_document" {
-  description = "Name of error document for the website"
-  type        = string
-  default     = "error.html"
-}
-
 variable "tags" {
   description = "Tags for the bucket"
   type        = map(string)
@@ -30,4 +18,16 @@ variable "create_random_suffix" {
 variable "environment" {
   description = "Environment bucket resides in"
   type        = string
+}
+
+variable "index_document" {
+  description = "Name of index document for the website"
+  type        = string
+  default     = "index.html"
+}
+
+variable "error_document" {
+  description = "Name of error document for the website"
+  type        = string
+  default     = "error.html"
 }
