@@ -4,22 +4,13 @@ locals {
 }
 
 resource "aws_s3_bucket" "website" {
-  bucket = local.name_with_env
-  tags = var.tags
+  bucket        = local.name_with_env
+  tags          = var.tags
   force_destroy = true
 }
 
 resource "random_pet" "suffix" {
   separator = ""
-}
-
-resource "aws_s3_bucket_public_access_block" "this" {
-  bucket = aws_s3_bucket.website.id
-
-  block_public_acls       = false
-  block_public_policy     = false
-  ignore_public_acls      = false
-  restrict_public_buckets = false
 }
 
 resource "aws_s3_bucket_website_configuration" "this" {
@@ -47,7 +38,7 @@ data "aws_iam_policy_document" "allow_public_read" {
 
     actions = ["s3:GetObject"]
 
-    resources = ["${aws_s3_bucket.website.arn}/*" ]
+    resources = ["${aws_s3_bucket.website.arn}/*"]
   }
 }
 
