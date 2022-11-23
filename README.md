@@ -1,6 +1,6 @@
 # AWS S3 Bucket to host a static website
 
-- Terraform module which creates an S3 bucket that can host a static website. This repository is used as a demo for my medium blog.
+- Terraform module which creates an S3 bucket that can host a static website. This repository is used as a demo for my [medium blog post](https://yemiodunade.medium.com/terraform-modules-101-create-version-and-publish-on-github-4455f3673559).
 
 ## Usage
 
