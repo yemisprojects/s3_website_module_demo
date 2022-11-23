@@ -78,5 +78,5 @@ Module is maintained by Yemi Odunade and XYZ contributors
 
 ## License
 
-Apache 2 Licensed. See LICENSE for full details.
+Apache 2 Licensed. See [LICENSE](https://github.com/yemisprojects/s3_website_module_demo/blob/main/LICENSE) for full details.
 
