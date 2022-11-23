@@ -2,6 +2,8 @@
 
 - Terraform module which creates an S3 bucket that can host a static website. This repository is used as a demo for my [medium blog post](https://yemiodunade.medium.com/terraform-modules-101-create-version-and-publish-on-github-4455f3673559).
 
+<a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@yemiodunade/0"><img src="https://github-readme-medium-recent-article.vercel.app/medium/@yemiodunade/0" alt="Recent Article 0"> 
+
 ## Usage
 
 ```hcl
