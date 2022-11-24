@@ -80,6 +80,6 @@ Module is maintained by Yemi Odunade and XYZ contributors
 
 Apache 2 Licensed. See [LICENSE](https://github.com/yemisprojects/s3_website_module_demo/blob/main/LICENSE) for full details.
 
-### Blog Post
+## Blog Post
 
 [![Image](https://github.com/yemisprojects/aws-codepipeline-s3-website-private/blob/main/images/terraform_module_blog.png "Terraform Modules 101: Create, version, and publish on GitHub")](https://medium.com/@yemiodunade/terraform-modules-101-create-version-and-publish-on-github-4455f3673559)
